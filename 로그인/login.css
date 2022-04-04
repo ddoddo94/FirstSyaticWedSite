@@ -1,0 +1,307 @@
+body {
+  
+  background: url("커피.jpg");
+}
+
+.Top_title{
+  z-index: 20;
+  background-color: #000000;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  border-bottom-left-radius: 30px ;
+  border-bottom-right-radius: 30px ;
+  height: 150px;
+  width: 100vw;
+    /* height길이조정하고 top없애서 위로 올림 */
+}
+
+.logo{
+  position: relative;
+  left:1vw;
+  width: 500px;
+  height: 200px;
+}
+
+
+#img_logo{
+  position: relative;
+  left:10%;
+  Top: 50%;
+  bottom: 50%;
+  transform: translate(-30%,-20%); 
+/* x축위치조정 */
+  height: 80px;
+  width: 160px;
+
+}
+
+.ptag{
+  font-family: '고운 바탕', serif;
+}
+
+.login{
+  position: relative;
+  left: 80%;
+  bottom:30px;
+  width: 170px;
+  height: 50px;
+  font-family: '고운 바탕', serif;
+  /* 폰트추가 */
+}
+
+.btn1{
+  font-family: '고운 바탕', serif;
+}
+
+
+#btnposition{
+  color: ghostwhite;
+  /* 폰트색상변경 */
+  font-family: '고운 바탕', serif;
+  position: relative;
+  text-decoration: none;
+  /* 밑줄없애기 */
+}
+
+.Nav{
+  position: relative;
+  left:40vw;
+  bottom:60px;
+  width: 38vw;
+  /* 아래로 내려가서 바텀값 변경해서 위로 올리고 왼쪽으로 이동. */
+}
+
+.navbar-nav{
+  font-size: x-large;
+  display: flex;
+  flex-wrap: nowrap;
+  transform: translate(-100px);
+  /* 메뉴바 wrap으로 한줄로 정렬, 위치조정 */
+}
+
+
+.navbar-nav li{
+  padding: 0px ;
+}
+
+.navbar-nav li:hover{
+  background-color: rgb(97, 11, 11);
+  border-radius: 4px;
+}
+
+
+
+
+#list_color{
+  color: white;
+}
+
+
+
+.mainNav{
+  background-color: red;
+
+}
+
+
+.Middle{
+  margin-top:30px;
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 30px; 
+  top:200px;
+
+}
+
+
+/* 중간부분 */
+.user_form {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  width: 500px;
+  height: 550px;
+  /* W400,H500에서 변경 */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:200px;
+  font-family: "Gowun Batang", serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.form_title {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+  margin-top: 20px;
+  font-family: "Gowun Batang", serif;
+  font-weight: bold;
+}
+
+
+#p1{
+  font-size: xx-large;
+}
+
+.form_user_info {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.txt_user_id {
+  width: 90%;
+  height: 40%;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid rgb(182, 181, 181);
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+  font-family: "Gowun Batang", serif;
+  font-weight: bold;
+}
+.txt_user_pwd {
+  width: 90%;
+  height: 40%;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid rgb(182, 181, 181);
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+  font-family: "Gowun Batang", serif;
+  font-weight: bold;
+}
+
+.form_save_id {
+  text-align: left;
+  margin-left: 8%;
+  font-size: 15px;
+}
+
+.form_login_button {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+#login_button {
+  width: 450px;
+  height: 55px;
+  border: 0px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(95, 95, 95);
+  color: rgb(255, 255, 255);
+  font-family: "Gowun Batang", serif;
+  
+}
+
+.login_bottom_wrap {
+  width: auto;
+}
+
+.flex_list {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gowun Batang", serif;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex_list > li {
+  padding: 30px;
+  font-size: 20x;
+}
+
+.flex_list li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ /*footer 시작*/
+  
+ .Bottom{
+  background-color: #000000;
+  position: relative;
+  margin-top: 30px;
+  padding-top:30px;
+  top: 150px;
+  height:190px; 
+}
+
+.include_items{
+  position: relative;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  bottom: 15px;
+}
+
+.referral{
+ width: 250px;
+ height: 100px;
+ position: relative;
+ left:20vw;
+ bottom:110px;
+ color: rgb(135, 135, 135);
+
+
+
+}
+
+.icons{
+  position: relative;
+  width:160px;
+  top: 10px;
+  left:15px;
+}
+
+#instar{
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+#face{
+  position: relative;
+  left:10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.address{
+  width:410px;
+  height:70px;
+  position: relative;
+  left:60vw;
+  bottom: 160px;
+  color: rgb(135, 135, 135);
+  
+}
+
+#Endlogo{
+  width: 190px;
+  height: 95px;
+  position: relative;
+  top:50%;
+  bottom:50%;
+  transform: translate(-50%,-50%);
+  left:95px;
+  
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="login.css" />
+    <!-- <script src="login.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="Top_title">
+      <span class="logo">
+        <a href=".././Main_page/Main_page.html">
+          <img id="img_logo" src=".././Main_page/CoffeeBook.png"/></a>
+      </span>
+      <div class="login">
+        <button
+          type="button"
+          class="btn btn-link btn1"
+          id="btnposition"
+          onClick="location.href='login.html'"
+        >
+          로그인
+        </button>
+        <button type="button" class="btn btn-link" id="btnposition" onClick="location.href='.././회원가입/회원가입.html'">
+          회원가입
+        </button>
+      </div>
+      <div class="Nav">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark py-lg-4 navcolor"
+          id="mainNav"
+        >
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4">
+                  <a
+                    class="nav-link text-uppercase"
+                    id="list_color"
+                    href=".././원두/원두.html"
+                    >Beans</a
+                  >
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a
+                    class="nav-link text-uppercase"
+                    id="list_color"
+                    href=".././추출/추출.html"
+                    >Extraction</a
+                  >
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a
+                    class="nav-link text-uppercase"
+                    id="list_color"
+                    href=".././로스팅/로스팅.html"
+                    >Roasting</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="Middle">
+      <form class="user_form" name="f1" action="" method="get">
+        <div class="form_title">
+          <p id="p1">LOGIN</p>
+          <p>Welcome! 커피북에 오신 것을 환영합니다.</p>
+          </div>
+        <!-- onKeyDown="if(event.keyCode == 13) loginCheck()" 이거 넣으려면 required없애고 js주석살리기. required로 하면서 form.method="get"도 추가했음.-->
+
+        <div class="form_user_info">
+          <input
+            type="text"
+            class="txt_user_id"
+            id="user_id"
+            placeholder="아이디를 입력해주세요."
+            required
+          /><br />
+          <input
+            type="password"
+            class="txt_user_pwd"
+            id="user_pwd"
+            placeholder="비밀번호를 입력해주세요."
+            required
+          /><br />
+        </div>
+
+        <div class="form_save_id"><input type="checkbox" />아이디 저장</div>
+        <br />
+        <div class="form_login_button">
+          <button type="submit" id="login_button">로그인</button>
+          <!-- onClick="location.href='예시main.html'" 이걸로하면 아이디,비번 입력안해도 메인페이지로 넘어감. 입력정보일치해야 메인페이지로 넘어가는거 구현하기 -->
+        </div>
+
+        <div class="login_bottom_wrap">
+          <ul class="flex_list">
+            <li><a href="Main_page.html">아이디찾기</a></li>
+            <li><a href="Main_page.html">비밀번호찾기</a></li>
+            <li><a href="../회원가입/회원가입.html">회원가입</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div class="Bottom">
+      <div class="include_items">
+        <div class="icons">
+          <a href="https://www.instagram.com/?hl=ko">
+            <img id="instar" src=".././Main_page/instargram.jpg" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img id="face" src=".././Main_page/facebook.jpg" />
+          </a>
+        </div>
+        <img id = "Endlogo" src=".././Main_page/CoffeeBook.png">
+        <div class="referral">
+          <h6 style="font-family: '고운 바탕', serif; font-size: small">Coffee Book 개발자</h6>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">Main page Part : 김현웅</a></br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">Login,추출 page Part : 이유라</a></br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">회원가입 Part : 엄수현</a></br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">Beans page Part : 임보라</a></br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">Roasting page part : 조상현</a>
+                        
+                    </div>
+                    <div class = "address">
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">이메일: hyunwoongkim1234@gmail.com</a><br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">주소:경기도 수원시 팔달구 인계동 208-6 (휴먼아카데미)</a><br>
+                        <a style="font-family: '고운 바탕', serif; font-size: smaller;">Copyright ⓒ 1999~2015 All Rights Reserved. Human Resources Development Service of Korea.</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

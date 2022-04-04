@@ -1,0 +1,227 @@
+
+.Top_title{
+  z-index: 1;
+  background-color: #000000;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  border-bottom-left-radius: 30px ;
+  border-bottom-right-radius: 30px ;
+  height: 150px;
+  width: 100vw;
+    /* height길이조정하고 top없애서 위로 올림 */
+}
+
+.logo{
+  position: relative;
+  left:1vw;
+  width: 500px;
+  height: 200px;
+}
+
+
+#img_logo{
+  position: relative;
+  left:10%;
+  Top: 50%;
+  bottom: 50%;
+  transform: translate(-30%,-20%); 
+/* x축위치조정 */
+  height: 80px;
+  width: 160px;
+  margin: 0px;
+}
+
+.ptag{
+  font-family: '고운 바탕', serif;
+}
+
+.login{
+  position: relative;
+  left: 80%;
+  bottom:30px;
+  width: 170px;
+  height: 50px;
+  font-family: '고운 바탕', serif;
+  /* 폰트추가 */
+}
+
+
+#btnposition{
+  color: ghostwhite;
+  /* 폰트색상변경 */
+  font-family: '고운 바탕', serif;
+  position: relative;
+  text-decoration: none;
+  /* 밑줄없애기 */
+}
+
+.Nav{
+  position: relative;
+  left:40vw;
+  bottom:60px;
+  width: 38vw;
+  /* 아래로 내려가서 바텀값 변경해서 위로 올리고 왼쪽으로 이동. */
+}
+
+.navbar-nav{
+  font-size: x-large;
+  display: flex;
+  flex-wrap: nowrap;
+  transform: translate(-100px);
+  /* 메뉴바 wrap으로 한줄로 정렬, 위치조정 */
+}
+
+#list_color{
+  color: white;
+}
+
+
+
+.mainNav{
+  background-color: red;
+
+}
+
+
+.Middle{
+  margin-top:30px;
+  position: relative;
+  width: 90vw;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0px; 
+  top:100px;
+
+}
+
+.coffee_method1{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+  font-family: 'Gowun Batang', serif;
+  font-weight: bold;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+p{
+  width: 600px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  line-height: 130%;
+  top: 0;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid rgb(2, 2, 2);
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+  padding: 10px;
+}
+
+iframe{
+  margin-top: 5%;
+  border: 2px solid rgb(245, 230, 230);
+  border-radius: 3px;
+}
+
+.img-group{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.method1_txt{
+  margin-left: 20px;
+}
+
+/*footer 시작*/
+  
+.Bottom{
+  background-color: #000000;
+  position: relative;
+  margin-top: 30px;
+  padding-top:30px;
+  top: 150px;
+  height:190px; 
+}
+
+.include_items{
+  position: relative;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  bottom: 15px;
+}
+
+.referral{
+ width: 250px;
+ height: 100px;
+ position: relative;
+ left:20vw;
+ bottom:110px;
+ color: rgb(135, 135, 135);
+
+
+}
+
+.icons{
+  position: relative;
+  width:160px;
+  top: 0px;
+  left:15px;
+}
+
+#instar{
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+#face{
+  position: relative;
+  left:10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.address{
+  width:410px;
+  height:70px;
+  position: relative;
+  left:60vw;
+  bottom: 160px;
+  color: rgb(135, 135, 135);
+  
+}
+
+#Endlogo{
+  width: 190px;
+  height: 95px;
+  position: relative;
+  top:50%;
+  bottom:50%;
+  transform: translate(-50%,-50%);
+  left:95px;
+  
+}

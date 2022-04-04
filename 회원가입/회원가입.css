@@ -1,0 +1,326 @@
+body {
+  background: url("커피.jpg");
+}
+.Top_title{
+    z-index: 1;
+    background-color: #000000;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    height: 150px;
+    width: 100vw;
+      /* height길이조정하고 top없애서 위로 올림 */
+  }
+  
+  .logo{
+    position: relative;
+    left:1vw;
+    width: 500px;
+    height: 200px;
+  }
+  
+  
+  #img_logo{
+    position: relative;
+    left:10%;
+    Top: 50%;
+    bottom: 50%;
+    transform: translate(-30%,-20%); 
+  /* x축위치조정 */
+    height: 80px;
+    width: 160px;
+  
+  }
+  
+  .ptag{
+    font-family: '고운 바탕', serif;
+  }
+  
+  .login{
+    position: relative;
+    left: 80%;
+    bottom:30px;
+    width: 170px;
+    height: 50px;
+    font-family: '고운 바탕', serif;
+    /* 폰트추가 */
+  }
+  
+  
+  #btnposition{
+    color: ghostwhite;
+    /* 폰트색상변경 */
+    font-family: '고운 바탕', serif;
+    position: relative;
+    text-decoration: none;
+    /* 밑줄없애기 */
+  }
+  
+  .Nav{
+    position: relative;
+    left:40vw;
+    bottom:60px;
+    width: 38vw;
+    /* 아래로 내려가서 바텀값 변경해서 위로 올리고 왼쪽으로 이동. */
+  }
+  
+  .navbar-nav{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: nowrap;
+    transform: translate(-100px);
+    /* 메뉴바 wrap으로 한줄로 정렬, 위치조정 */
+  }
+  
+  #list_color{
+    color: white;
+  }
+  
+  .mainNav{
+    background-color: red;
+  }
+  
+
+
+
+
+  
+      .Middle{
+        margin-top:30px;
+        position: relative;
+        width: 1200px;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 30px; 
+        top:200px;
+      }
+    
+    
+    .join_membership{
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      border: 1px solid rgb(231,231, 231) ;
+      border-radius: 10px;
+      width: 700px;
+      height: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 200px;
+      font-size: medium;
+    }
+    
+    h1{
+    font-family: "Gouwn batang", serif;
+    font-weight: bold;
+    }      
+
+    .join_form{
+      font-size: 40px;
+      text-align: center;
+      color: rgb(95,95,95);
+      margin-top: 40px;
+      
+    }
+    
+    .form_user_info{
+      text-align: center;
+      margin-top: 50px;
+      margin-block: 20px;
+      padding: 10px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    p{
+    display: flex;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    }
+    
+    #make_id_input{
+      width: 35%;
+    }
+    
+    
+    .input{
+      width: 50%;
+      height: 30%;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid rgb(182, 181, 181);
+      border-left-width:0;
+      border-top-width:0;
+      border-right-width:0;
+      border-bottom-width:2;
+    }
+
+    select{
+      width: 50%;
+      height: 30%;
+      font-size: medium;
+    }
+    
+    .input_group{
+      width: 100%;
+      margin: 10px; 
+    }
+    
+    .form_submit_info{
+      width: auto;
+      height: auto;
+      margin: 10px;
+      margin-top: 10%;
+    }
+
+    #submit_button{
+      width: 450px;
+      height: 55px;
+      border: 0px;
+      font-size: 20px;
+      border-radius: 5px;
+      background-color: rgb(95, 95, 95);
+      color: rgb(255, 255, 255);
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+
+    }
+    
+    .txt_name{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+
+    .serial_number{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+    #id_cheak_button{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+
+    
+   
+
+    .put_email{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+    .phone{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+
+    .make_id{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+
+    .make_password{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+
+    .check_password{
+      font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    }
+  
+  
+  /* 중간부분 */
+  .user_form {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    width: 500px;
+    height: 550px;
+    /* W400,H500에서 변경 */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:200px;
+    font-family: "Gowun Batang", serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  
+  
+  /*footer 시작*/
+  
+  .Bottom{
+    background-color: #000000;
+    position: relative;
+    margin-top: 30px;
+    padding-top:30px;
+    top: 150px;
+    height:190px; 
+  }
+  
+  .include_items{
+    position: relative;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    bottom: 15px;
+  }
+  
+  .referral{
+   width: 250px;
+   height: 100px;
+   position: relative;
+   left:20vw;
+   bottom:110px;
+   color: rgb(135, 135, 135);
+
+  
+  }
+  
+  .icons{
+    position: relative;
+    width:160px;
+    top: 10px;
+    left:15px;
+  }
+  
+  #instar{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  
+  #face{
+    position: relative;
+    left:10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  
+  .address{
+    width:410px;
+    height:70px;
+    position: relative;
+    left:60vw;
+    bottom: 160px;
+  color: rgb(135, 135, 135);
+    
+  }
+
+  #Endlogo{
+    width: 190px;
+    height: 95px;
+    position: relative;
+    top:50%;
+    bottom:50%;
+    transform: translate(-50%,-50%);
+    left:95px;
+    
+  }
