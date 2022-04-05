@@ -1,6 +1,10 @@
 body {
   background: url("커피.jpg");
 }
+
+.font {
+  font-family: 'Gowun Batang', serif;
+}
 .Top_title{
     z-index: 1;
     background-color: #000000;
