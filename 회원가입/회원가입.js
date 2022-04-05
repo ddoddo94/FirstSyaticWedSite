@@ -20,7 +20,7 @@ function onkeyup(){
       }    
 }
 
-/*
+
 
 function isCorrectPassword(inputPw) {                              //패스워드 정규식
   let regExp = /(?=.*[a-zA-ZS])(?=.*?[#?!@$%^&*-]).{6,24}/;
@@ -110,4 +110,3 @@ function enterkey() {
           }    
      }
 }    	                                     
-*/
